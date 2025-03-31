@@ -128,6 +128,7 @@ var Curve = function () {
 }
 };
 
+
 var cval = (x, y, rad) => {
     if (Math.pow(x * x + y * y, 0.5) > CSIZE - rad) return false;
     for (let i = 0; i < ca.length; i++) {
